@@ -113,7 +113,7 @@ dependencies:
     - importlib-metadata==4.11.3
     - iniconfig==1.1.1
     - jax==0.3.4
-    - jaxlib==0.3.2
+    # - jaxlib==0.3.2
     - jmp==0.0.2
     - josepy==1.13.0
     - keras==2.8.0

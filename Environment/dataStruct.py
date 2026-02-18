@@ -368,7 +368,7 @@ class vehicleList(object):
         vehicle_trajectories: List[trajectory] = []
         for i in range(edge_number_in_width):
             for j in range(edge_number_in_width):
-                trajectories_file_name = self._trajectories_file_name + '_' + str(i) + '_' + str(j) + '.csv'
+                trajectories_file_name = self._trajectories_file_name '.csv'#+ '_' + str(i) + '_' + str(j) + '.csv'
                 df = pd.read_csv(
                     trajectories_file_name, 
                     names=['vehicle_id', 'time', 'longitude', 'latitude'], header=0)

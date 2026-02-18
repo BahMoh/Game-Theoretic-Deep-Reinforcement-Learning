@@ -36,7 +36,8 @@ class vehicularNetworkEnvConfig:
     
     """Vehicle related."""
     vehicle_number: Optional[int] = 27
-    trajectories_file_name: str = 'CSV/trajectories_20161116_1300_1305'
+    # trajectories_file_name: str = 'CSV/trajectories_20161116_1300_1305'
+    trajectories_file_name: str = '/kaggle/working/Vehicular-Trajectories-Processing-for-Didi-Open-Data/CSV_Examples/trajectories_20161116_0800_0805.csv'
     task_request_rate: float = 1
     vehicle_seeds: List[int] = dataclasses.field(default_factory=list)
 
